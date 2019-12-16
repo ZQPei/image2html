@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+.vscode/
+
+build/
+dist/
+MANIFEST
+MANIFEST.in
+
+*.egg-info/
