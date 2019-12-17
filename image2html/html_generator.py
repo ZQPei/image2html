@@ -15,7 +15,7 @@ import os
 import glob
 import numpy as np
 
-from .load_flist import load_flist
+from .flist import load_flist
 
 
 class HTML(object):
@@ -45,6 +45,8 @@ class HtmlGenerator(object):
         self.width = args.width
         self.output = args.output
 
+
+        assert self.dirs, "Use `image2html --help` to get help!"
 
         self.n = len(self.dirs)
         if self.n == 1:
@@ -81,7 +83,7 @@ class HtmlGenerator(object):
         if isinstance(self.ext, list):
             assert len(self.ext) == self.n, "Arg error: ext"
         for dn in self.dirs:
-            assert os.path.exists(dn), "Error: %s not found"%(dn)
+            assert os.path.isdir(dn), "Error: Folder %s not found"%(dn)
 
 
     def _parse_flists(self):

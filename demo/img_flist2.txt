@@ -1,7 +1,7 @@
-img_folder2/cmp_b0001.png
-img_folder2/cmp_b0002.png
-img_folder2/cmp_b0003.png
-img_folder2/cmp_b0004.png
-img_folder2/cmp_b0013.png
-img_folder2/cmp_b0023.png
-img_folder2/cmp_b0026.png
+/home/pzq/github/image2html/demo/img_folder2/cmp_b0001.png
+/home/pzq/github/image2html/demo/img_folder2/cmp_b0002.png
+/home/pzq/github/image2html/demo/img_folder2/cmp_b0003.png
+/home/pzq/github/image2html/demo/img_folder2/cmp_b0004.png
+/home/pzq/github/image2html/demo/img_folder2/cmp_b0013.png
+/home/pzq/github/image2html/demo/img_folder2/cmp_b0023.png
+/home/pzq/github/image2html/demo/img_folder2/cmp_b0026.png
