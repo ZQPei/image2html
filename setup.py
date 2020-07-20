@@ -2,11 +2,13 @@ from setuptools import setup
 
 setup(
     name='image2html',
-    version='0.0.1',
+    version='0.0.2',
     author='ZQPei',
     author_email='peiziqiang@gmail.com',
     packages=['image2html'],
-    install_requires=["huster"],
+    install_requires=["huster", 
+                    "numpy", 
+                    "dominate"],
     # scripts=['utils/build_server_scripts'],
     entry_points = {
               'console_scripts': [
